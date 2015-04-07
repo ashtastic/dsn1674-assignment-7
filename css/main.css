@@ -8,4 +8,29 @@ html {
 
 body {
 	margin: 0;
+	font-family: 'Dosis', sans-serif;
 }
+
+img {
+	width: 100%;
+	display: block;
+}
+
+h1 {
+	padding-bottom: 1em;
+	margin: 0;
+}
+
+.masthead {
+	background-image: url("../images/logo.svg"), url("../images/masthead-bg.png");
+	background-size: 75px auto, 200px auto;
+	padding-top: 6em;
+	background-repeat: no-repeat, repeat;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	display: block;
+}
+
