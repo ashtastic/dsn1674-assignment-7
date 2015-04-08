@@ -83,8 +83,8 @@ a {
 	margin: 0;
 }
 
-.beetle-2 {
-	background-image: url("../images/beetle-2.jpg");
+.beetle-3 {
+	background-image: url("../images/beetle-3.jpg");
 	background-repeat: no-repeat;
 	display: inline-block;
 	background-size: 100%;
@@ -94,7 +94,7 @@ a {
 	margin: 0;
 }
 
-.beetle-4 p, .beetle-2 p{
+.beetle-4 p, .beetle-3 p{
 	margin: 0;
 	padding-top: 70%;
 	padding-bottom: 10%;
@@ -106,15 +106,15 @@ a {
 	color: white;
 	background-color: #58A601;
 	background-image: linear-gradient(to bottom, #58A601, #275C00);
-	padding: 10 40 10 40px;
+	padding: 10 300 10 300px;
 	border-radius: 40px;
 	font-size: 1.5em;
-	width: 100px;
+	position: relative;
 }
 
 
-.beetle-3 {
-	background-image: url("../images/beetle-3.jpg");
+.beetle-2 {
+	background-image: url("../images/beetle-2.jpg");
 	background-repeat: no-repeat;
 	display: inline-block;
 	background-size: 100%;
@@ -135,23 +135,12 @@ a {
 	margin: 0;
 }
 
-.beetle-3 p, .beetle-1 p{
+.beetle-2 p, .beetle-1 p{
 	margin: 0;
 	padding-top: 70%;
 	padding-bottom: 10%;
 	text-align: center;
 }
-
-/*
-.left {
-	float: left;
-	width: 50%;
-}
-
-.right {
-	float: right;
-	width: 50%;
-}*/
 
 figure {
 	margin: 0;
