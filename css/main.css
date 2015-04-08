@@ -81,6 +81,7 @@ a {
 	width: 50%;
 	height: 50%;
 	margin: 0;
+	padding: 0;
 }
 
 .beetle-3 {
@@ -92,6 +93,7 @@ a {
 	width: 50%;
 	height: 50%;
 	margin: 0;
+	padding: 0;
 }
 
 .beetle-4 p, .beetle-3 p{
@@ -112,7 +114,6 @@ a {
 	position: relative;
 }
 
-
 .beetle-2 {
 	background-image: url("../images/beetle-2.jpg");
 	background-repeat: no-repeat;
@@ -122,6 +123,7 @@ a {
 	width: 50%;
 	height: 50%;
 	margin: 0;
+	padding: 0;
 }
 
 .beetle-1 {
@@ -133,6 +135,7 @@ a {
 	width: 50%;
 	height: 50%;
 	margin: 0;
+	padding: 0;
 }
 
 .beetle-2 p, .beetle-1 p{
@@ -142,11 +145,8 @@ a {
 	text-align: center;
 }
 
-figure {
-	margin: 0;
-}
-
 footer {
+	clear: both;
 	background-image: url("../images/logo.svg");
 	background-repeat: no-repeat;
 	background-size: 30px auto;
@@ -154,8 +154,7 @@ footer {
 	background-color: rgba(81, 34, 0, 0.5);
 }
 
-.logo {
-	background-color: #513300;
+.footer {
 	opacity: 0.5;
-	width: 20%;
+	padding: 1.5em;
 }
