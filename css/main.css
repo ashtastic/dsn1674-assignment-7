@@ -108,9 +108,9 @@ a {
 	color: white;
 	background-color: #58A601;
 	background-image: linear-gradient(to bottom, #58A601, #275C00);
-	padding: 10 300 10 300px;
-	border-radius: 40px;
-	font-size: 1.5em;
+	padding: 2% 20% 2% 20%;
+	border-radius: 20px;
+	font-size: 1em;
 	position: relative;
 }
 
@@ -152,6 +152,8 @@ footer {
 	background-size: 30px auto;
 	background-position: center 10px;
 	background-color: rgba(81, 34, 0, 0.5);
+	padding: 0;
+	margin: 0;
 }
 
 .footer {
