@@ -17,21 +17,20 @@ img {
 }
 
 h1 {
-	padding-bottom: 1em;
 	margin: 0;
-	font-size: 3em;
+	font-size: 2em;
 	color: #512200;
 	padding: 0.5em;
 }
 
 .masthead {
 	background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/masthead-bg.jpg");
-	background-size: 40px auto, 40px auto, 100px auto;
+	background-size: 30px auto, 30px auto, 100px auto;
 	background-repeat: no-repeat, no-repeat, repeat;
-	background-position: right 20%, left 20%, left top;
+	background-position: calc(100% - 15px) 25%, 15px 25%, left top;
 	text-align: center;
 	display: block;
-	padding-bottom: 2.9em;
+	padding-bottom: 2.2em;
 	font-weight: bolder;
 }
 
@@ -63,7 +62,7 @@ nav ul {
 nav a {
 	color: white;
 	text-decoration: none;
-	font-size: 1.3rem;
+	font-size: 1rem;
 	padding: 0.5em 0.1em 0.5em 0.1em;
 	text-align: center;
 	text-decoration: none;
